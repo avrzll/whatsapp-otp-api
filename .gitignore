@@ -1,2 +1,4 @@
 node_modules/
 auth/
+src/session/
+package-lock.json
