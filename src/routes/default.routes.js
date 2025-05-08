@@ -9,7 +9,8 @@ defaultRoutes.get("/", (req, res) => {
       message: "Welcome to the WhatsApp OTP Generator & Verifier API",
       version: "2.0.0",
       author: "avrzll_",
-      documentation: "https://github.com/avrzll/whatsapp-otp-api",
+      documentation:
+        "https://github.com/avrzll/whatsapp-otp-api?tab=readme-ov-file#-api-documentation",
     },
   });
 });
