@@ -1,4 +1,4 @@
-import { generateWAMessageFromContent, WAProto as proto } from "baileys-pro";
+import { generateWAMessageFromContent, proto } from "@fizzxydev/baileys-pro";
 
 export const sendCopyButtonMessage = async (sock, jid, otp) => {
   let msg = generateWAMessageFromContent(

@@ -1,14 +1,12 @@
-const baileys = await import("baileys-pro");
+const baileys = await import("@fizzxydev/baileys-pro");
 const { default: makeWASocket } = baileys.default;
 import {
   useMultiFileAuthState,
   fetchLatestBaileysVersion,
   DisconnectReason,
   makeCacheableSignalKeyStore,
-  generateWAMessageFromContent,
-  WAProto,
   Browsers,
-} from "baileys-pro";
+} from "@fizzxydev/baileys-pro";
 import readline from "readline";
 import Pino from "pino";
 import NodeCache from "node-cache";
